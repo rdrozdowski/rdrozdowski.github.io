@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import MenuItem from './MenuItem.jsx';
 import JsonMenu from './Menu.json';
 import Logo from '../../../../img/name.png';
-import Stripes from '../../../../img/3stripes.png';
 import Styles from './Menu.scss';
 
 export default class Menu extends Component {
@@ -16,10 +15,10 @@ export default class Menu extends Component {
     }
 
     return (
-      <header src={Styles.Stripes}>
+      <div>
       <div className={'row'}>
         <div className={'col-sm-1 col-md-1 col-lg-1'}></div>
-        <div className={'col-sm-10 col-md-10 col-lg-10'}>
+        <div className={'col'}>
           <nav className={"navbar navbar-expand-lg navbar-light"}>
           <a className={"navbar-brand"} href="#"><img src={Logo} /></a>
           <button className={"navbar-toggler"} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +39,7 @@ export default class Menu extends Component {
         </div>
         <div className={'col-sm-1 col-md-1 col-lg-1'}></div>
         </div>
-      </header>
+        </div>
     )
   }
 }
