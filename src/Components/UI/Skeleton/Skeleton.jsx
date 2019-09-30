@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Redirect, Switch } from 'react-router-dom';
 import Footer from '../Footer/index';
 import Header from '../Header/index';
 import Home from '../Home/index.jsx';
@@ -38,7 +38,7 @@ class Skeleton extends Component {
             </ul>
           </div>
           <div className="col-md-6 no-gutter Row__col--box-adjust Row__col--box-grey Row__col--align--left">
-            <Router>
+            <Switch>
               <div>
                 <Redirect from="/" to="/Home" />
                 <Route exact path="/home" component={Home} />
@@ -47,7 +47,7 @@ class Skeleton extends Component {
                 <Route path="/contact" component={Contact} />
                 <Footer />
               </div>
-            </Router>
+            </Switch>
           </div>
         </div>
       </div>
