@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Styles from './MenuItem.scss';
+import Styles from './MenuItem.css';
 import '../../../../src/styles.css';
 
 export default class MenuItem extends Component {

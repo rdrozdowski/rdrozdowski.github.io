@@ -39,7 +39,6 @@ export default class Contact extends Component {
   render() {
     return (
       <section>
-        <img src={Img} className={'img-responsive'} />
         <h4 dangerouslySetInnerHTML={{ __html: JsonMenu[3].menuTitle }}></h4>
         <p>
           If you have enquiries or would just like to contact me, please use the details below or fill out the form.</p>
