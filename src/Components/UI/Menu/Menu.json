@@ -8,7 +8,7 @@
     "menuID": 2,
     "menuTitle": "About",
     "menuLink": "AboutLink",
-    "menuText": "<p>I am an experienced, University-educated Front End Developer whose objective is to build up my already existing technical skills, whilst working in a team environment. I am passionate about development and always keen to work with the latest technologies against Agile.</p>  <b>Languages</B><p>HTML/HTML5, CSS2/3 , OO Javascript, jQuery, Backbone, RaphaelJS, PHP, MySQL, Action Script 3</p><b>debugging in iOS, Windows, and Android environments.</b><br /><br /><b>Mobile Platform</b><p>Phone Gap/Cordova</p><b>Versioning control systems</b><p>Git/GitFlow and SVN</p><b>Systems</b><p>Linux, Windows, DOS, MacOS</p><b>Applications</b><p>MS Office, Photoshop, Illustrator, Visual Web Developer, Adobe Flash</p>"
+    "menuText": "<p>I am an experienced, University-educated Front End Developer whose objective is to build up my already existing technical skills, whilst working in a team environment. I am passionate about development and always keen to work with the latest technologies against Agile.</p>  <b>Languages</B><p>HTML/HTML5, CSS2/3, Sass, Less, BEM, ReactJS, OO Javascript, ES5, ES6, jQuery, Backbone, RaphaelJS, PHP, MySQL</p><b>debugging in iOS, Windows, and Android environments.</b><br /><br /><b>Mobile Platform</b><p>Phone Gap/Cordova</p><b>Versioning control systems</b><p>Git/GitFlow and SVN</p> <b>Systems</b><p>Linux, Windows, DOS, MacOS</p><b>Applications</b><p>MS Office, Photoshop, Illustrator, Visual Web Developer, Adobe Flash</p>"
   },
   {
     "menuID": 3,
