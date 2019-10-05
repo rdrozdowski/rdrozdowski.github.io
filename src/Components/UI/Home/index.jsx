@@ -6,7 +6,7 @@ export default class Home extends Component {
     return (
       <section>
         <div className="row no-gutters">
-          <h4 dangerouslySetInnerHTML={{ __html: JsonMenu[0].menuTitle }}></h4>
+          <h5 dangerouslySetInnerHTML={{ __html: JsonMenu[0].menuTitle }}></h5>
             <p dangerouslySetInnerHTML={{ __html: JsonMenu[0].menuText }}></p>
         </div>
       </section>

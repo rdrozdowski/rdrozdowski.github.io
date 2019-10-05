@@ -10,7 +10,7 @@ export default class About extends Component {
   render() {
     return (
       <section>
-        <h4 dangerouslySetInnerHTML={{__html: JsonMenu[1].menuTitle}}></h4>
+        <h5 dangerouslySetInnerHTML={{__html: JsonMenu[1].menuTitle}}></h5>
         <p dangerouslySetInnerHTML={{ __html: JsonMenu[1].menuText }}></p>
       </section>
     )

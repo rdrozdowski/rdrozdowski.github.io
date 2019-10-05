@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
   render() {
     return (
       <section>
-        <h4 dangerouslySetInnerHTML={{ __html: JsonMenu[2].menuTitle }}></h4>
+        <h5 dangerouslySetInnerHTML={{ __html: JsonMenu[2].menuTitle }}></h5>
         <p dangerouslySetInnerHTML={{ __html: JsonMenu[2].menuText }}></p>
       </section>
     )

@@ -39,9 +39,8 @@ export default class Contact extends Component {
   render() {
     return (
       <section>
-        <h4 dangerouslySetInnerHTML={{ __html: JsonMenu[3].menuTitle }}></h4>
-        <p>
-          If you have enquiries or would just like to contact me, please use the details below or fill out the form.</p>
+        <h5 dangerouslySetInnerHTML={{ __html: JsonMenu[3].menuTitle }}></h5>
+        <p dangerouslySetInnerHTML={{__html: JsonMenu[3].menuText}}></p>
         <form id="contact-form" action="https://formspree.io/raf.drozdowski@gmail.com" method="POST" onSubmit={this.submitForm}>
           <div id="labels" className={'float-left'}>
             <label htmlFor="usernameInp" className={'display-block'} name="Name">Name</label>
