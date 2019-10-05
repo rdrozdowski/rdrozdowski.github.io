@@ -1,6 +1,7 @@
 :root {
   --link-color: #aaaaaa;
   --white-color: #ffffff;
+  --grey-color: #aaaaaa;
 }
 
 body {
@@ -48,10 +49,6 @@ section {
 
 .img-responsive {
   width: 100%;
-}
-
-footer {
-  padding-top: 7px;
 }
 
 input, textarea {
@@ -166,7 +163,20 @@ footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  background: rgba(0, 0, 0, .85)
+  background: rgba(0, 0, 0, .85);
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+}
+
+.footer--height {
+  height: 35px;
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+  color: var(--grey-color)
 }
 
 .clearfix:after {
@@ -220,6 +230,15 @@ footer {
   .Menu__ul__items--position {
     float: none;
     padding: 5px 0;
+  }
+
+  footer {
+    background: none;
+    z-index: 2
+  }
+
+  .footer--shift-left {
+    margin-left: -180px;
   }
 
 } 

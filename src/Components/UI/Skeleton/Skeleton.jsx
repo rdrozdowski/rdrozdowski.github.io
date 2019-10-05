@@ -36,6 +36,7 @@ class Skeleton extends Component {
               })
             }
             </ul>
+
           </div>
           <div className="col-md-6 no-gutter Row__col--box-adjust Row__col--box-grey Row__col--padding Row__col--align--left">
             <Switch>
@@ -46,10 +47,10 @@ class Skeleton extends Component {
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/contact" component={Contact} />
               </div>
-            </Switch> 
-            <Footer />            
+            </Switch>      
           </div>          
         </div>
+        <Footer />        
       </div>
     )
   }

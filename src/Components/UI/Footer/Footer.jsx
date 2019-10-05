@@ -8,12 +8,8 @@ export default class Footer extends Component {
 
   render() {
     return (
-      <footer role="contentinfo" className={'row'}>
-        <div className={'col-md-2 col-lg-2'}></div>
-        <div className={'col-md-8 col-lg-8'}>
-          <p>All rights reserved ©  <span id="now">2019</span> Rafal Drozdowski</p>
-        </div>
-        <div className={'col-md-2 col-lg-2'}></div>
+      <footer role="contentinfo" className={"row footer--height footer--shift-left"}>
+          <p>All rights reserved &copy;<span id="now">2019</span> Rafal Drozdowski</p>
       </footer>
     )
   }
