@@ -6,6 +6,7 @@
 
 body {
   background-color: rgba(0, 0, 0, .5);
+  font-family: 'Titillium Web', sans-serif;
 }
 
 a:hover {
@@ -141,7 +142,7 @@ h4 {
 }
 
 .Row__col--box-black {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .Row__header--fixed{
