@@ -41,7 +41,7 @@
     "style-loader": "^0.20.3",
     "url-loader": "^0.6.2",
     "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.2"
+    "webpack-dev-server": "^3.1.11"
   },
   "keywords": [],
   "author": "Rafal Drozdowski @2019",
