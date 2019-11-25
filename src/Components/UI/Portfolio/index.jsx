@@ -5,8 +5,7 @@ import Img from './img/versatility.jpg';
 export default class Portfolio extends Component {
   render() {
     return (
-      <section>
-        <h5 dangerouslySetInnerHTML={{ __html: JsonMenu[2].menuTitle }}></h5>
+      <section className={"portfolio__section--width section--padding"}>
         <p dangerouslySetInnerHTML={{ __html: JsonMenu[2].menuText }}></p>
       </section>
     )

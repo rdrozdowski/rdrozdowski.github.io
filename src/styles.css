@@ -7,6 +7,7 @@
 body {
   background-color: rgba(0, 0, 0, .5);
   font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
 }
 
 a:hover {
@@ -58,7 +59,7 @@ input, textarea {
 
 #contact-form input, #contact-form textarea {
   font-family: tahoma,verdana,sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 5px;
   border: 1px gray solid;
   /* float: right; */
@@ -88,6 +89,16 @@ input, textarea {
   float: right;
   width: 70%;
 }
+
+.contact__section--width, .portfolio__section--width {
+  width: 100%;
+}
+
+.portfolio__section--width ul > li {
+  list-style-type: none;
+  margin-left: -20px
+}
+
 input {
   height: 30px;
 }
@@ -180,6 +191,10 @@ footer p {
   color: var(--grey-color)
 }
 
+.porfolio__a--color {
+  color: #000000;
+}
+
 .clearfix:after {
   display: table;
   clear: both;
@@ -196,9 +211,16 @@ footer p {
     position: static;
   }
 
+.col-md-3 {
+  padding: 40px;
+}
+
   section {
     margin-top: 0px;
     margin-bottom: 0px;
+    width: 60%;
+    line-height: 28px;
+    padding: 20px;
   }
 
   .Row__col--align--center {

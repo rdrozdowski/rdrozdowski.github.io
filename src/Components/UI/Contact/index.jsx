@@ -38,8 +38,7 @@ export default class Contact extends Component {
 
   render() {
     return (
-      <section>
-        <h5 dangerouslySetInnerHTML={{ __html: JsonMenu[3].menuTitle }}></h5>
+      <section className={'contact__section--width'}>
         <p dangerouslySetInnerHTML={{__html: JsonMenu[3].menuText}}></p>
         <form id="contact-form" action="https://formspree.io/raf.drozdowski@gmail.com" method="POST" onSubmit={this.submitForm}>
           <div id="labels" className={'float-left'}>
