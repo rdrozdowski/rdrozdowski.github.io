@@ -94,6 +94,10 @@ input, textarea {
   width: 100%;
 }
 
+.section__menu--color {
+  color: rgba(0, 0, 0, 1);
+}
+
 .portfolio__section--width ul > li {
   list-style-type: none;
   margin-left: -20px
@@ -262,6 +266,10 @@ footer p {
 
   .footer--shift-left {
     margin-left: -115px;
+  }
+
+  .Row__col--box-black {
+    background-color: rgba(0, 0, 0, 1);
   }
 
 } 
