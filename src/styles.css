@@ -2,6 +2,7 @@
   --link-color: #aaaaaa;
   --white-color: #ffffff;
   --grey-color: #aaaaaa;
+  --black-color: #000000
 }
 
 body {
@@ -12,6 +13,11 @@ body {
 
 a:hover {
   color: var(--link-color)
+}
+
+[class^=portfolio__section] a:hover {
+  color: var(--black-color);
+  border-bottom: 1px solid var(--black-color);
 }
 
 header {
@@ -63,6 +69,10 @@ input, textarea {
   margin-top: 5px;
   border: 1px gray solid;
   /* float: right; */
+}
+
+#contact-form input[type="submit"]{
+  padding: 0px;
 }
 
 .display-block {

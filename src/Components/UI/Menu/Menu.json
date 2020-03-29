@@ -2,13 +2,13 @@
     "menuID": 1,
     "menuTitle": "Home",
     "menuLink": "HomeLink",
-    "menuText" : "<p>I am Rafal, and currently have been working as a Senior Front End Developer.</p><p>Up till now have worked on many different projects, and in each of them I have used and developed my technical skills in different areas including development, web design and web usability, accessibility, web marketing, management and testing skills.</p>"
+    "menuText" : "<p>Hello, good to see you and thank you for visiting my website.</p><p>Here you can find out a bit about myself.</p><p>Currently have been working as a Senior Javascript Developer. Up till now have worked on various projects, and in each of them I have used and developed my technical skills in different areas including development, web design and web usability, accessibility, web marketing, management and testing.</p><p>This allowed me to develop an attitude of being self-sufficient and proactive which resulted in recognizing and fulfilling in time things to change.</p>"
   },
   {
     "menuID": 2,
     "menuTitle": "About",
     "menuLink": "AboutLink",
-    "menuText": "<p>I am an experienced, University-educated Front End Developer whose objective is to build up my already existing technical skills, whilst working in a team environment. I am passionate about development and always keen to work with the latest technologies against Agile.</p>  <b>Languages</B><p>HTML/HTML5, CSS2/3, Sass, Less, BEM, ReactJS, OO Javascript, ES5, ES6, jQuery, Backbone, RaphaelJS, PHP, MySQL</p><b>debugging in iOS, Windows, and Android environments.</b><br /><br /><b>Mobile Platform</b><p>Phone Gap/Cordova</p><b>Versioning control systems</b><p>Git/GitFlow and SVN</p><b>Systems</b><p>Linux, Windows, DOS, MacOS</p><b>Applications</b><p>MS Office, Photoshop, Illustrator, Visual Web Developer, Adobe Flash</p>"
+    "menuText": "<p>I am an experienced, University-educated Senior Javascript Developer whose objective is to build up my already existing technical skills, whilst working in a team environment. I am passionate about development and always keen to work with the latest technologies against Agile.</p>  <b>Languages</B><p>HTML/HTML5, CSS2/3, Sass, Less, BEM, ReactJS, NodeJS, OO Javascript, ES5, ES6, jQuery, Backbone, RaphaelJS, PHP, MySQL</p><b>debugging in iOS, Windows, and Android environments.</b><br /><br /><b>Mobile Platform</b><p>Phone Gap/Cordova</p><b>Versioning control systems</b><p>Git/GitFlow and SVN</p><b>Systems</b><p>Linux, Windows, DOS, MacOS</p><b>Applications</b><p>MS Office, Photoshop, Illustrator, Visual Web Developer, Adobe Flash</p>"
   },
   {
     "menuID": 3,
