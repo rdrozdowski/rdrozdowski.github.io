@@ -235,6 +235,8 @@ footer p {
     width: 60%;
     line-height: 28px;
     padding: 20px;
+    height: 90vh;
+    overflow-y: auto;
   }
 
   .Row__col--align--center {
