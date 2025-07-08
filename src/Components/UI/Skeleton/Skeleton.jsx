@@ -41,7 +41,7 @@ class Skeleton extends Component {
           <div className="col-md-9 no-gutter Row__col--box-adjust Row__col--box-grey Row__col--padding Row__col--align--left">
             <Switch>
               <div>
-                <Redirect from="/" to="/Home" />
+                <Redirect from="/" to="/home" />
                 <Route exact path="/home" component={Home} />
                 <Route path="/about" component={About} />
                 <Route path="/portfolio" component={Portfolio} />
