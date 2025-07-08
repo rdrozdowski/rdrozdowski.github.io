@@ -35,7 +35,7 @@ header .navbar-toggler {
 section {
   margin-top: 20vh;
   margin-bottom: 50px;
-  color: #fff
+  color: #fff;
 }
 
 .container-fluid {
@@ -216,7 +216,14 @@ footer p {
 }
 
 @media screen and (min-width: 767px) {
+    body {
+      transition: 1s;
+    }
   
+    [class^=portfolio__section] ul li {
+      padding-bottom: .5em;
+    }
+
   .Menu__ul  {
     height: auto;
   }
@@ -235,8 +242,9 @@ footer p {
     width: 60%;
     line-height: 28px;
     padding: 20px;
-    height: 90vh;
+    /* height: 90vh; */
     overflow-y: auto;
+    height: auto;
   }
 
   .Row__col--align--center {
@@ -282,6 +290,14 @@ footer p {
 
   .Row__col--box-black {
     background-color: rgba(0, 0, 0, 1);
+  }
+
+  .section--padding a {
+    color: rgba(0, 0, 0, 1)
+  }
+
+  .portfolio__section--height {
+    height: 90vh;
   }
 
 } 
