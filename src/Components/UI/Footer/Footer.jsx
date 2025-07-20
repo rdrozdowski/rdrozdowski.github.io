@@ -9,7 +9,7 @@ export default class Footer extends Component {
   render() {
     return (
       <footer role="contentinfo" className={"row footer--height footer--shift-left"}>
-          {/* <p> All rights reserved &copy;<span id="now">{new Date().getFullYear()}</span></p> */}
+          <p>&copy; <span className='footer-name'>Rafal Drozdowski</span> <span id="now">{new Date().getFullYear()}</span></p>
       </footer>
     )
   }

@@ -9,6 +9,7 @@ body {
   background-color: rgba(0, 0, 0, .5);
   font-family: 'Titillium Web', sans-serif;
   font-size: 18px;
+  /* overflow: hidden; */
 }
 
 a:hover {
@@ -36,6 +37,7 @@ section {
   margin-top: 20vh;
   margin-bottom: 50px;
   color: #fff;
+  /* overflow: scroll; */
 }
 
 .container-fluid {
@@ -215,6 +217,14 @@ footer p {
   content: '';
 }
 
+.name {
+ display: none;
+}
+
+.footer-noter {
+  display: block;
+}
+
 @media screen and (min-width: 767px) {
     body {
       transition: 1s;
@@ -299,5 +309,16 @@ footer p {
   .portfolio__section--height {
     height: 90vh;
   }
+  .name {
+    display: block;
+    position: fixed;
+    top: 3em;
+    font-size: 1.25em;
+    text-align: right;
+  }
+
+  /* .footer-name {
+    display: none;
+  } */
 
 } 

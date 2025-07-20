@@ -27,6 +27,7 @@ class Skeleton extends Component {
       <div>
         <div className="row" >
           <div className="col-md-3 no-gutter Row__col--box-adjust Row__col--box-black Row__col--align--center Row__header--fixed">
+           <p className="name">Rafal <br />Drozdowski</p>
             <ul className="Menu__ul">
             {
               this.JsonMenu.map((item, index) => {
@@ -36,7 +37,6 @@ class Skeleton extends Component {
               })
             }
             </ul>
-
           </div>
           <div className="col-md-9 no-gutter Row__col--box-adjust Row__col--box-grey Row__col--padding Row__col--align--left">
             <Switch>

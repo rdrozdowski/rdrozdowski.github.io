@@ -6,9 +6,10 @@ import '../../../../src/styles.css';
 export default class MenuItem extends Component {
     constructor(props) {
         super(props);
+        this.arrayColor = [];
     }
 
-    /**
+   /**
    * retrieve clicked elem
    */
     handleClick(e) {
@@ -20,12 +21,12 @@ export default class MenuItem extends Component {
         this.parent = this.base.parentNode;
 
         // apply backgorund random color
-        let arr = ['35, 129, 156','41, 102, 184', '89, 149, 92', '219, 153, 0', '185, 111, 111'];
-        let digitRand = Math.floor( Math.random() * 5);
+        let arr = ['35, 129, 156','41, 102, 184', '89, 149, 92', '219, 153, 0', '185, 111, 111', '166,156,125','130, 169, 108', '166, 156, 125', '113, 125, 146'];
+
+        let digitRand = Math.floor( Math.random() * 9);
         let colorCode = `${arr[digitRand]}`;
-        let colorCodeLight = "rgba("+colorCode+", 0.3)";
         let colorCodeDark = "rgba("+colorCode+", 1)";
-        console.log(colorCodeDark)
+
         document.body.style.backgroundColor = colorCodeDark;
         //document.getElementsByClassName('Row__col--box-black')[0].style.backgroundColor = colorCodeLight;
         
